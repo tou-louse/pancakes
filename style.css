@@ -111,11 +111,13 @@ margin-left:150px;
   padding-top:50px;
   display:flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+
 }
  #aboutbereich img{
   width: 40%;
   height: 200px;
-  margin-left:250px;
+  margin: left 25px;
 }
  #abouttext{
   color: white;
