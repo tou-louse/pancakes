@@ -58,9 +58,10 @@
     align-items: center;
     flex-wrap: wrap;
 }
-.section_1{
-    width: 50%;
-}
 .section_2{
     width: 50%;
+}
+.maps-frame{
+    width: 800px;
+    height: 600px;
 }
