@@ -1,5 +1,5 @@
 /********* Container ***********/
-.container {
+#container {
     margin-top: 50px;
    display: flex;
    justify-content:center;
@@ -34,7 +34,7 @@
     height: auto;
     border-radius: 20%;
 }
-.container3{
+#container3{
     margin: 150px;
     font-family: 'Kalam', cursive;
     color:deepskyblue;
@@ -61,7 +61,7 @@
 .section_2{
     width: 50%;
 }
-.maps-frame{
+#maps-frame{
     width: 800px;
     height: 600px;
 }
