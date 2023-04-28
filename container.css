@@ -1,10 +1,10 @@
 /********* Container ***********/
 #container {
     margin-top: 50px;
-   display: flex;
-   justify-content:center;
-   align-items: center;
-   flex-wrap: wrap;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .item{
     font-family: 'Kalam', cursive;
