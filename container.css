@@ -1,0 +1,33 @@
+/********* Container ***********/
+.container {
+    border: 1px solid #3bc8eb;
+    height: auto;
+    width: auto;
+  
+    display: flex;
+    justify-content: space-around;
+    
+    
+  }
+  .item{
+    padding: 50px 30px;
+  }
+  .item-1{
+    
+    }
+    .item-1 img{
+      height: 80%;
+      width: auto;
+      border-radius: 35%;
+      border: 1px;
+    }
+  .item-2{
+    
+    
+  }
+  .item-2 img{
+    height: 80%;
+    width: auto;
+    border-radius: 30%;
+  }
+  
