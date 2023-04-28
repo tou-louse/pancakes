@@ -13,3 +13,7 @@ body{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.5rem;
 }
+.linkhome img{
+  width: 100%;
+  height: auto; 
+}
