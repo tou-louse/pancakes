@@ -54,14 +54,15 @@
 .container4{
     margin-top: 75px;
     display: flex;
-    justify-content:center;
+    justify-content:flex-start;
     align-items: center;
     flex-wrap: wrap;
+    
 }
-.section_2{
-    width: 50%;
+#section_2{
+    margin: 45px;
 }
 #maps-frame{
-    width: 800px;
-    height: 600px;
+    width: 500px;
+    height: 350px;
 }
