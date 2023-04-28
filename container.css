@@ -39,18 +39,12 @@
     color:deepskyblue;
     font-size: 1.5rem;
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap:wrap;
 }
-.c3-img{
-    width: 50%;
-    height: auto;
-}
 .cr-img img{
-    
-    margin: 10px;
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 .c3-text{
     width: 50%;
