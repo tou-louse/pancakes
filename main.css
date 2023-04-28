@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
 *{
@@ -8,16 +7,14 @@
 html {
   scroll-behavior: smooth;
 }
-
 body{
   margin: 0;
   padding: 0;
-  background-color: #444250;
+  background-color: #231e25;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.5rem;
-  
 }
-.linkhome img{
+.responsive{
   width: 100%;
-  height: auto; 
+  height: max;
 }
