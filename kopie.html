@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Pancakes with Love</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pancakes with Love</title>
+    <script src="https://kit.fontawesome.com/1184db19f3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="container.css">
+</head>
+<body>
+    <navbar>
+        <div class="navbar">
+            <div class="brand-title">pancakes with love</div>
+            <i class="fa-solid fa-heart"></i>
+            <a href=" class=toggle-button"></a>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <ul class="navbar-links">
+                <li><a href="#linkhome">home</a></li>
+                <li><a href="#container">pancakes</a></li>
+                <li><a href="#container3">about</a></li>
+                <li><a href="#maps-frame">location</a></li>
+                <li><a href="#section_2">contact</a></li>
+            </ul>
+        </div>
+    </navbar>
+    <header id="linkhome">
+        <img src="/images/header.jpg" alt="Banner" class="responsive">
+    </header>
+    <section id="welcome">
+
+    </section>
+    <section id="container">
+        <div class="item">
+            <img src="images/schoko.jpg" alt="">
+        </div>
+        <div class="item ">
+            <span>Saftiger Schockoladen-PanCake. <br>
+                Mit diesen Schokolade-Pancakes zauberst du allen ein Lächeln ins Gesicht.
+                <br>Diese Variante lockt sogar Langschläfer aus den Federn. </span>
+            </div>
+        </section>
+    <section class="container2">
+            <div class="item2 ">
+                <span>Fluffig, zarte Pfannkuchen mit Honig und Beeren.<br>
+                    Diese köstlichen Pancakes sind eine willkommene Abwechslung <br> zum Frühstücksbrot.</span>
+                </div>
+            <div class="item2">
+                <img src="images/honey.jpg" alt="">
+            </div>
+        </section>
+    <section id="container3">
+        <div class="c3-img">
+            <img src="images/loc.png" alt="">
+        </div>
+        <div class="c3-text">
+            <span>Das Wildberry wurde 2021 gegründet und erfreut seine Gäste mit köstlichen Gerichten und herzlicher Gastfreundschaft. 
+                Wir bemühen uns, jeden Besuch zu einem unvergesslichen kulinarischen Erlebnis zu machen. 
+                Unsere Frühstücks- und Mittagsmenüs sind inspiriert von einer Mischung aus traditionellen, hausgemachten Rezepten, 
+                die Ihren Gaumen verwöhnen. Wir verwenden nur frische, saisonale Zutaten, die die köstlichsten Aromen und robuste Güte liefern.
+                Unsere Verpflichtung, Ihre Erwartungen zu übertreffen, beginnt mit unserer hohen Qualität und unserem freundlichen, 
+                persönlichen Service. Wir tun alles, um sicherzustellen, dass die Bedürfnisse eines jeden Gastes erfüllt werden. 
+                Es ist uns ein Privileg, Sie und Ihre Gäste zu bedienen. Wir wissen es zu schätzen, 
+                dass Sie sich für ein Essen bei uns entschieden haben, und möchten, dass Sie Ihren Tag am liebsten bei uns beginnen.                
+                Im Wildberry Café versprechen wir, Sie mit einem Lächeln zu empfangen und Ihren Appetit mit Freude zu stillen. <br>
+                Schließlich ist unser Zuhause auch Ihr Zuhause! <br>
+                Ihr Team von Wildberrys
+            </span>
+        </div>
+    </article>
+    <section class="container4">
+        <div class="section_1">
+            <iframe id="maps-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.378105228527!2d-87.62543552348545!3d41.884724864998816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2ca61afe006f%3A0x952fc2ea4e453f15!2sWildberry%20Pancakes%20%26%20Cafe!5e0!3m2!1sde!2sde!4v1682683710782!5m2!1sde!2sde" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="section_2">
+            <form class= "form" action="send_email.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="subject">Betreff:</label>
+                <input type="text" id="subject" name="subject" required>
+                <br>
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message" required rows="8" cols="50"></textarea>
+                <br>
+                <button type="submit">Senden</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
