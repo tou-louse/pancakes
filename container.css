@@ -34,15 +34,26 @@
     border-radius: 20%;
 }
 .container3{
-    border-top: 10px;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-wrap: wrap;
+    margin: 50px;
     font-family: 'Kalam', cursive;
     color:deepskyblue;
+    font-size: 1.5rem;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
 }
-.item3 img{
+.c3-img{
+    width: 50%;
+    height: auto;
+}
+.cr-img img{
+    
+    margin: 10px;
     width: 100%;
     height: auto;
+}
+.c3-text{
+    width: 50%;
+    height: auto;
+    
 }
