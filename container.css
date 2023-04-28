@@ -1,33 +1,45 @@
 /********* Container ***********/
 .container {
-    border: 1px solid #3bc8eb;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   flex-wrap: wrap;
+   
+    
+    
+}
+.item{
+    
+    font-family: 'Kalam', cursive;
+    color:deepskyblue;
+    font-size: 1.1rem;
+}
+.item img{
+    margin-top: 30px;
+    margin-left: 25px;
+    width: 80%;
     height: auto;
-    width: auto;
-  
+    border-radius: 20%;
+}
+.container2 {
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
     
-    
-  }
-  .item{
-    padding: 50px 30px;
-  }
-  .item-1{
-    
-    }
-    .item-1 img{
-      height: 80%;
-      width: auto;
-      border-radius: 35%;
-      border: 1px;
-    }
-  .item-2{
-    
-    
-  }
-  .item-2 img{
-    height: 80%;
-    width: auto;
-    border-radius: 30%;
-  }
-  
+     
+     
+ }
+ .item2{
+     
+     font-family: 'Kalam', cursive;
+     color:deepskyblue;
+     font-size: 1.1rem;
+ }
+ .item2 img{
+     margin-top: 30px;
+     margin-left: 25px;
+     width: 80%;
+     height: auto;
+     border-radius: 20%;
+ }
