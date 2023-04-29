@@ -1,6 +1,8 @@
 #container_1{
+    font-family: 'Kalam', cursive;
     height: 450px;
-    margin-bottom: 65px;
+    margin-top:40px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -8,30 +10,46 @@
 }
 .pic_eins{
     flex-grow: 0;
-    
+    text-align: center;
+            
 }
 .pic_zwei{
     flex-grow: 0;
     align-self: flex-end;
-    
+    text-align: center;        
 }
 
 .pic_drei{
     flex-grow: 0;
-    
+    text-align: center;        
 }
 .pic_eins img{
     width: 350px;
     height: auto;
     border-radius: 25%;
+    display: block;
+    transition: transform 1.5s ease;
 }
 .pic_zwei img{
-    width: 350px;
+    width: 400px;
     height: auto;
     border-radius: 25%;
+    display: block;
+    transition: transform 1.5s ease;
 }
 .pic_drei img{
     width: 350px;
     height: auto;
     border-radius: 25%;
+    display: block;
+    transition: transform 1.5s ease;
+}
+.pic_eins:hover img {
+    transform: scale(1.5);
+  }
+.pic_zwei:hover img {
+    transform: scale(1.5);
+}
+.pic_drei:hover img {
+    transform: scale(1.5);
 }
