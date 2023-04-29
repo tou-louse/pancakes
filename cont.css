@@ -1,7 +1,7 @@
 #container_1{
     font-family: 'Kalam', cursive;
-    height: 450px;
-    margin-top:40px;
+    
+    margin-top: 110px;
     margin-bottom: 40px;
     display: flex;
     justify-content: space-evenly;
@@ -28,28 +28,41 @@
     height: auto;
     border-radius: 25%;
     display: block;
-    transition: transform 1.5s ease;
+    transition: transform 1.0s ease;
 }
 .pic_zwei img{
     width: 400px;
     height: auto;
     border-radius: 25%;
     display: block;
-    transition: transform 1.5s ease;
+    transition: transform 1.0s ease;
 }
 .pic_drei img{
     width: 350px;
     height: auto;
     border-radius: 25%;
     display: block;
-    transition: transform 1.5s ease;
+    transition: transform 1.0s ease;
 }
 .pic_eins:hover img {
-    transform: scale(1.5);
+    transform: scale(1.2);
   }
 .pic_zwei:hover img {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 .pic_drei:hover img {
-    transform: scale(1.5);
+    transform: scale(1.2);
+}
+#container_2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#container_2 img{
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
 }
