@@ -1,6 +1,5 @@
 #container_1{
     font-family: 'Kalam', cursive;
-    
     margin-top: 110px;
     margin-bottom: 40px;
     display: flex;
@@ -68,4 +67,9 @@
 }
 .txt_about{
     width: 75%;
+}
+#contact{
+border: 5px solid black;
+margin-top: 200px;
+display: flex;
 }
