@@ -9,7 +9,7 @@ body {
   height: 50px;
   width: 100%;
   background-color: #444250;
-  position: ;
+  position: fixed;
 }
 .nav > .nav-header {
   display: inline;
